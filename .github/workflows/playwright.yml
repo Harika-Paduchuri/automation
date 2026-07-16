@@ -34,7 +34,7 @@ jobs:
 
       - name: Install Playwright browsers
         run: |
-          playwright install --with-deps
+          python -m playwright install --with-deps
 
       - name: Run Tests
         run: pytest
