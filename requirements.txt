@@ -1,7 +1,11 @@
 playwright
 pytest
+pytest-playwright
+pytest-xdist
+pytest-html
 pytest-rerunfailures
 allure-pytest
-pytest-html
-pytest-xdist
 python-dotenv
+openpyxl
+pandas
+requests
