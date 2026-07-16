@@ -1,4 +1,4 @@
-name: Playwright Python Tests
+name: Playwright Automation
 
 on:
   push:
@@ -8,8 +8,7 @@ on:
   pull_request:
     branches:
       - main
-
-  on:
+      
   schedule:
     - cron: '0 8 * * *'
 
