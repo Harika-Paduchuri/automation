@@ -14,7 +14,8 @@ def test_buzz_page(login):
 
     buzz_page = BuzzPage(page)
     text_post = "Hello Everyone, This is Robot 2.0"
-    path = r"C:\Users\Admin\Pictures\download.gif"
+    #path = r"C:\Users\Admin\Pictures\download.gif"
+    path = "assets/download.gif"
     v_path = r"https://www.youtube.com/watch?v=VHwl78QXF_0&list=PLUDwpEzHYYLtFprdVOrMLBJcqCJ-gRDYa"
     buzz_page.post_text(text_post)
     buzz_page.post_image(path)
