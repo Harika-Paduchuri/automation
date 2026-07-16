@@ -14,7 +14,8 @@ def test_pim_page(login):
     nav.go_to_pim()
 
     pim = PimPage(page)
-    image_path= r"C:\Users\Admin\Pictures\profile-icon-design-free-vector.jpg"
+    image_path = "assets/profile-icon-design-free-vector.jpg"
+    #image_path= r"C:\Users\Admin\Pictures\profile-icon-design-free-vector.jpg"
 
     employee_name="ahana"
     employee_id="0556"
